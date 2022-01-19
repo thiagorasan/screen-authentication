@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "screen-authentication",
+    "slug": "screen-authentication",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "screen-authentication"
+}
