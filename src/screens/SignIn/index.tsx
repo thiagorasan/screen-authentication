@@ -34,7 +34,6 @@ export function SignIn() {
 
     async function handleLogin() {
              if (email && senha){
-                console.log(email, senha);
                 const req = await fetch('https://processoreact.projetos.jrmendonca.com.br/Usuario/ValidaUsuario', {
                     method: 'POST',
                     body: JSON.stringify({
